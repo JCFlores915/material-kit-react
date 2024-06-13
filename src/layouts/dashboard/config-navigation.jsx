@@ -1,5 +1,6 @@
-import SvgColor from 'src/components/svg-color';
 
+import SvgColor from '../../components/svg-color';
+import LocationCityIcon from '@mui/icons-material/LocationCity';
 // ----------------------------------------------------------------------
 
 const icon = (name) => (
@@ -16,6 +17,11 @@ const navConfig = [
     title: 'user',
     path: '/user',
     icon: icon('ic_user'),
+  },
+  {
+    title: 'Company',
+    path: '/company',
+    icon: <LocationCityIcon />,
   }
 ];
 
